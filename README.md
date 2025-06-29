@@ -24,8 +24,9 @@ cd Contact_us-API
 ```
 
 ### 2. Install dependencies
-
+```bash
 npm install
+```
 
 ### 3. Configure environment variables
 
@@ -38,8 +39,13 @@ ADMIN_EMAIL=your_email@gmail.com
 
 
 ### 4. Run the server
-
-npm start or node server.js
+```bash
+npm start
+```
+ or 
+ ```bash
+node server.js
+```
 
 server will be running on http://localhost:5000
 
