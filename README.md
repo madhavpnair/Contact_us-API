@@ -18,8 +18,10 @@ It validates input, sends an email to the admin using Gmail SMTP via Nodemailer,
 
 ### 1. Clone the repo
 
+```bash
 git clone https://github.com/madhavpnair/Contact_us-API.git <br>
 cd Contact_us-API
+```
 
 ### 2. Install dependencies
 
@@ -46,8 +48,9 @@ server will be running on http://localhost:5000
 ### 5. Testing the API
 
 1. using the test script
-
+```bash
 node test.js
+```
 check the terminal for the message and the admin's inbox for the email.
 
 2.With Postman
