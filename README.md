@@ -31,7 +31,8 @@ npm install
 ### 3. Configure environment variables
 
 Create a .env file in the root folder and edit as follows:<br>
-(also create an app password for App : Mail for the SMTP_USER account)
+(also create an app password for App : Mail for the SMTP_USER account)<br>
+(here you can use your email id as both SMTP_USER and ADMIN_EMAIL for testing)
 ```bash
 PORT=5000
 SMTP_USER=your_email@gmail.com
