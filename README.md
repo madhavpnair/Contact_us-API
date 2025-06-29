@@ -10,7 +10,7 @@ It validates input, sends an email to the admin using Gmail SMTP via Nodemailer,
 - POST `/contact` endpoint to receive form data (name, email, message)
 - Sends email notifications to the admin using Nodemailer and Gmail SMTP
 - Handles errors and input validation
-- Can be tested using `node-fetch` (test.js) / Postman
+- Can be tested using `node-fetch (test.js)` / `Postman`
 
 
 
@@ -18,7 +18,7 @@ It validates input, sends an email to the admin using Gmail SMTP via Nodemailer,
 
 ### 1. Clone the repo
 
-git clone https://github.com/madhavpnair/Contact_us-API.git
+git clone https://github.com/madhavpnair/Contact_us-API.git <br>
 cd Contact_us-API
 
 ### 2. Install dependencies
