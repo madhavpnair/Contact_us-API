@@ -19,7 +19,7 @@ It validates input, sends an email to the admin using Gmail SMTP via Nodemailer,
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/madhavpnair/Contact_us-API.git <br>
+git clone https://github.com/madhavpnair/Contact_us-API.git 
 cd Contact_us-API
 ```
 
