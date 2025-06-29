@@ -31,10 +31,11 @@ npm install
 ### 3. Configure environment variables
 
 Create a .env file in the root folder and edit as follows:
+(also create an app password for App : Mail for your google account)
 ```bash
 PORT=5000
 SMTP_USER=your_email@gmail.com
-SMTP_PASS=your_app_password  //create an app password for App: Mail 
+SMTP_PASS=your_app_password  
 ADMIN_EMAIL=your_email@gmail.com 
 ```
 
@@ -72,4 +73,4 @@ check the terminal for the message and the admin's inbox for the email.
     "message": "This is a test"
   }
 
-check the console and admin's inbox.
+ check the console and admin's inbox.
