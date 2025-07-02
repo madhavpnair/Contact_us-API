@@ -1,4 +1,4 @@
-const express = require('express');;
+const express = require('express');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 //const cors = require('cors');//if going to be tested from frontend/ diff origin
@@ -25,7 +25,7 @@ app.post('/contact', async(req,res) => {
   console.log(`Received message from ${name} (${email}): ${message}`);
 
   try{
-    //trasporter for nodemailer
+    //transporter for nodemailer
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
